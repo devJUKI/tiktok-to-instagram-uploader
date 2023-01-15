@@ -45,6 +45,6 @@ Response:
 }
 ```
 
-We get first (nested) id ("id": "XXXXXXXXXXX")
+We get first (nested) id ("id": "XXXXXXXXXXX") <- Instagram account id
 
 Accounts are limited to 25 API-published posts within a 24 hour period. Carousels count as a single post.
