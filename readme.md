@@ -1,7 +1,10 @@
 Request:
-me/accounts
+
+`me/accounts`
 
 Response:
+
+```
 "data": [
     {
       "access_token": "YYYYYYYYYY",
@@ -24,19 +27,23 @@ Response:
       ]
     }
   ]
+```
 
 Get second id ("id": "XXXXXXXXXXX")
 
 Use that id in this request:
-XXXXXXXXXXX?fields=instagram_business_account
+
+`XXXXXXXXXXX?fields=instagram_business_account`
 
 Response:
+```
 {
   "instagram_business_account": {
     "id": "XXXXXXXXXXX"
   },
   "id": "YYYYYYYYYY"
 }
+```
 
 We get first (nested) id ("id": "XXXXXXXXXXX")
 
