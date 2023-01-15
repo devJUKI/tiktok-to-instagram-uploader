@@ -15,7 +15,7 @@ Response:
           "name": "Prekyba ir pramonė"
         }
       ],
-      "name": "ComfyHousing",
+      "name": "YYYYYYYYYY",
       "id": "XXXXXXXXXXX",
       "tasks": [
         "ADVERTISE",
