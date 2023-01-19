@@ -8,11 +8,13 @@ share_to_feed = "true"
 thumb_offset = 0
 
 # Get TikTok video url without watermark
+print('Getting TikTok video without watermark...')
 tiktok_url = 'XXXXXXXXXX'
 watermark_remover = TikTokWatermarkRemover()
 video_url = watermark_remover.get_video_url(tiktok_url)
 
 # Upload video to Instagram
+print('Starting to upload reel to Instagram...')
 ig_uploader = InstagramUploader(instagram_account_id, access_token)
 ig_uploader.upload_reel(caption, share_to_feed, thumb_offset, video_url)
 
