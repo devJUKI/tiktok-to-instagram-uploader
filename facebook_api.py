@@ -12,9 +12,9 @@ class FacebookAPI:
         oauth_code = self.get_auth_code()
 
         param = {
-            'client_id': 483341770598169,
+            'client_id': XXXXXXXXX,
             'redirect_uri': 'https://www.example.com/',
-            'client_secret': '656b89799d8db8fa7eb4d18d6f8bf587',
+            'client_secret': 'XXXXXXXXX',
             'code': oauth_code,
         }
 
