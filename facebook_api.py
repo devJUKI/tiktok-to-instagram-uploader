@@ -31,7 +31,7 @@ class FacebookAPI:
 
         facebook_code_url = 'https://www.facebook.com/v15.0/dialog/oauth?'
         params = {
-            'client_id': 483341770598169,
+            'client_id': XXXXXXXXX,
             'redirect_uri': 'https://www.example.com/',
             'scope': 'ads_management,business_management,instagram_basic,instagram_content_publish,pages_read_engagement'
         }
