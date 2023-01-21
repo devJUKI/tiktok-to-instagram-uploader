@@ -2,8 +2,8 @@ from instagram_uploader import InstagramUploader
 from tiktok_watermark_remover import TikTokWatermarkRemover
 from facebook_api import FacebookAPI
 
-instagram_account_id = '17841456683250303'
-caption = "HOW GOOD DOES THIS LOOK? 🔥 LINK IN BIO 🎁 #musthaves #flame #diffuser #fire #gift #giftideas #decoration #air #humidifier #Relaxation #ComfortLiving #AirQuality #HomeImprovement #HealthyLiving"
+instagram_account_id = 'XXXXXXXXXX'
+caption = "XXXXXXXXXX"
 share_to_feed = "true"
 thumb_offset = 0
 
@@ -12,7 +12,7 @@ facebook_access_token = facebook_api.get_access_token()
 
 # Get TikTok video url without watermark
 print('Getting TikTok video without watermark...')
-tiktok_url = 'https://www.tiktok.com/@higrowth/video/7127924895127850246?q=flame%20humidifier&t=1674269115892'
+tiktok_url = 'XXXXXXXXXX'
 watermark_remover = TikTokWatermarkRemover()
 video_url = watermark_remover.get_video_url(tiktok_url)
 
