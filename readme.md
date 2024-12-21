@@ -1,10 +1,12 @@
-Request:
+### Request:
+
+**Endpoint:**
 
 `me/accounts`
 
-Response:
+### Response:
 
-```
+```json
 "data": [
     {
       "access_token": "YYYYYYYYYY",
@@ -29,14 +31,16 @@ Response:
   ]
 ```
 
-Get second id ("id": "XXXXXXXXXXX")
+1. Get the second id from the response:
+    - "id": "XXXXXXXXXXX"
+2. Use that id in this request:
 
-Use that id in this request:
+**Request:**
 
 `XXXXXXXXXXX?fields=instagram_business_account`
 
-Response:
-```
+**Response:**
+```json
 {
   "instagram_business_account": {
     "id": "XXXXXXXXXXX"
@@ -45,6 +49,9 @@ Response:
 }
 ```
 
-We get first (nested) id ("id": "XXXXXXXXXXX") <- Instagram account id
+3. Extract the Instagram account id from the nested response:
+    - "id": "XXXXXXXXXXX" (This is the Instagram account ID).
 
-Accounts are limited to 25 API-published posts within a 24 hour period. Carousels count as a single post.
+Note:
+- Accounts are limited to **25 API-published posts** within a **24-hour period**.
+- **Carousels count as a single post**.
