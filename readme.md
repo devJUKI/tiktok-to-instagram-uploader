@@ -1,5 +1,5 @@
 ## 📜 How to Use
-### In Meta Graph API:
+### In Meta Graph API
 
 **Request:**
 
