@@ -53,6 +53,6 @@
 3. Extract the Instagram account id from the nested response:
     - "id": "XXXXXXXXXXX" (This is the Instagram account ID).
 
-Note:
+### Notes
 - Accounts are limited to **25 API-published posts** within a **24-hour period**.
 - **Carousels count as a single post**.
