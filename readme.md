@@ -1,10 +1,10 @@
-### Request:
+## 📜 How to Use
 
-**Endpoint:**
+**Request:**
 
 `me/accounts`
 
-### Response:
+**Response:**
 
 ```json
 "data": [
